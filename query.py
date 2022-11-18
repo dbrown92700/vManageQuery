@@ -12,8 +12,8 @@ query = {
     "query": {
         "condition": "OR",
         "rules": [{
-            "value": [uuid],
-            "field": "uuid",
+            "value": ["OMP"],
+            "field": "component",
             "type":"string",
             "operator": "in"
         }
